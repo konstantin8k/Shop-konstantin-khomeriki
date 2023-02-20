@@ -1,85 +1,27 @@
-html, body, head, div, ul, li, a, p, br, h1, h2, h3, h4, h5 { 
-    margin: 0px; padding: 0px; 
-}
+html, body, head, div, ul, li, a, p, br, h1, h2, h3, h4, h5 { margin: 0px; padding: 0px; }
 
+.btn:focus { outline: none; }
+.btn:focus,.btn:active:focus,.btn.active:focus,.btn.focus,.btn:active.focus,.btn.active.focus{outline:0;-webkit-box-shadow: none;box-shadow: none; }
 
+/*Tables*/
+.table { border: 1px solid #ddd; }
+.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td { vertical-align: middle; }
 
+/*headtext*/
+.headtext { overflow: hidden; margin-bottom: 20px; }
+.headtext h1 { font-weight: bold; float: left; }
+.headtext button { float: right; vertical-align: middle; }
 
-.btn:focus { 
-    outline: none; 
-}
+/*btnproject*/
+.btnproject { margin-bottom: 20px; }
 
+/*comsoon*/
+.comsoon { overflow: hidden; margin-left: 15%; margin-bottom: 40px; }
+.comsoon img { float: left; margin-right: 90px; }
+.comsoon a { font-size: 18px; line-height: 300px; color: #337ab7; text-decoration: none; }
 
-.btn:focus,.btn:active:focus,.btn.active:focus,.btn.focus,.btn:active.focus,.btn.active.focus{
-    -webkit-box-shadow: none;
-    outline:0;
-    box-shadow: none; 
-}
+/*inputedit*/
+.inputedit { width: 80%; margin-top: 12px; }
 
-
-.table { 
-    border: 1px solid #ddd; 
-}
-
-
-.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td { 
-    vertical-align: middle; 
-}
-
-
-.headtext { 
-    overflow: hidden; 
-    margin-bottom: 20px; 
-}
-
-
-.headtext h1 { 
-    font-weight: bold; 
-    float: left; 
-}
-
-.headtext button { 
-    float: right; 
-    vertical-align: middle; 
-}
-
-
-.btnproject { 
-    margin-bottom: 20px; 
-}
-
-
-.comsoon { 
-    overflow: hidden; 
-    margin-left: 15%; 
-    margin-bottom: 40px; 
-}
-
-.comsoon img { 
-    float: left; 
-    margin-right: 110px; 
-}
-
-
-.comsoon a { 
-    font-size: 20px; 
-    font-weight: bold;
-    line-height: 300px; 
-    color: #14458d; 
-    text-decoration: none; 
-}
-
-
-
-.inputedit { 
-    width: 70%; 
-    margin-top: 12px; 
-}
-
-
-
-.footer { 
-    padding: 15px; 
-    border-top: 1px solid rgb(233, 230, 230); 
-    color: rgb(39, 39, 39); 
-}
+/*footer*/
+.footer { padding: 15px; border-top: 1px solid #ddd; color: #333; }
